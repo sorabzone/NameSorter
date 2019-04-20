@@ -43,17 +43,21 @@ and a file in the working directory called sorted-names-list.txt containing the 
 2. Application is created in .Net Core, you need to publish to generate a self contained EXE and then run using command prompt providing input file name.
 3. From Visual Studio - add "unsorted-names-list.txt" as argument in "NameSorter" project properties.
 
-outut file get generated at following path "NameSorter\NameSorter\bin\Debug\netcoreapp2.1\sorted-names-list.txt"
+outut file get generated at following path 
+
+              "NameSorter\NameSorter\bin\Debug\netcoreapp2.1\sorted-names-list.txt"
 
 4. To run application from command prompt - Go to "NameSorter\NameSorter" and execute following command
 
-# dotnet run unsorted-names-list.txt
+              dotnet run unsorted-names-list.txt
 
-outut file get generated at following path "NameSorter\NameSorter\sorted-names-list.txt" 
+outut file get generated at following path 
+
+              "NameSorter\NameSorter\sorted-names-list.txt" 
 
 5. To Run Test - Go to "NameSorter\NameSorter.UnitTest" and execute following command
 
-# dotnet test
+              dotnet test
 
 
 # Assumptions & Limitations
