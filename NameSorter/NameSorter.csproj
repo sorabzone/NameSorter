@@ -18,6 +18,9 @@
   </ItemGroup>
 
   <ItemGroup>
+    <None Update="NLog.config">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
     <None Update="unsorted-names-list.txt">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
